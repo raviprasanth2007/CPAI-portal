@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CPAI - Portal - Code Review</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="icon-sidebar">
+
+    <a class="icon" data-title="AI Robot" href="index.html">
+      <i class="fa-solid fa-robot"></i>
+    </a>
+
+    <a class="icon" data-title="Courses Available" href="index.html">
+      <i class="fa-solid fa-graduation-cap"></i>
+    </a>
+
+    <a class="icon" data-title="Skills" href="skills.html">
+      <i class="fa-solid fa-brain"></i>
+    </a>
+
+    <a class="icon active" data-title="Code Review" href="review.html">
+      <i class="fa-solid fa-code"></i>
+    </a>
+
+    <a class="icon logout" data-title="Logout">
+      <i class="fa-solid fa-right-from-bracket"></i>
+    </a>
+
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <div class="topbar">
+      <h2>CPAI Portal</h2>
+    </div>
+
+    <section class="content">
+
+      <div class="page-head">
+        <h1>Code Review</h1>
+        <p>Completed sessions</p>
+      </div>
+
+      <div class="table-box">
+        <table>
+          <thead>
+            <tr>
+              <th>S.No</th>
+              <th>Course Name</th>
+              <th>Slot</th>
+              <th>Comments</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Linux Basic for Robotics</td>
+              <td>03 Nov 2024 (08:45 am - 09:45 am)</td>
+              <td>Good</td>
+              <td><span class="status done">Review Completed</span></td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>File Permission & Test Edition</td>
+              <td>06 Jun 2025 (10:30 am - 11:40 am)</td>
+              <td>Need improvement</td>
+              <td><span class="status done">Review Completed</span></td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>C++ Basic for Robotics</td>
+              <td>29 Dec 2025 (01:30 pm - 03:00 pm)</td>
+              <td>Output mismatch</td>
+              <td><span class="statusnotdone">Review Incompleted</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+  </main>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

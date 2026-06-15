@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CPAI - Course</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- FONT AWESOME -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="layout">
+
+<!-- ========== SIDEBAR ========== -->
+<aside class="icon-sidebar">
+  <a class="icon" data-title="Home" href="index.html"><i class="fa-solid fa-robot"></i></a>
+  <a class="icon active" data-title="Courses" href="index.html"><i class="fa-solid fa-graduation-cap"></i></a>
+  <a class="icon" data-title="Skills" href="skills.html"><i class="fa-solid fa-brain"></i></a>
+  <a class="icon" data-title="Code Review" href="review.html"><i class="fa-solid fa-code"></i></a>
+  <a class="icon" data-title="Logout"><i class="fa-solid fa-right-from-bracket"></i></a>
+</aside>
+
+<!-- ========== MAIN ========== -->
+<main class="main">
+
+<!-- ========== TOPBAR ========== -->
+<div class="topbar">
+  <h2>CPAI Portal</h2>
+
+  <a href="profile.html" class="profile-box">
+    <div>
+      <small>7376242AD271</small><br>
+      <b>RAVI PRASANTH D</b>
+    </div>
+    <img src="https://i.pravatar.cc/150?img=12">
+  </a>
+</div>
+
+<!-- ========== CONTENT ========== -->
+<section class="content">
+
+<!-- COURSE HEADER -->
+<div class="course-header-card">
+
+  <div class="course-header-left">
+    <h1 id="courseTitle">Loading...</h1>
+    <p id="courseDesc"></p>
+
+    <div class="course-meta" id="courseMeta"></div>
+  </div>
+
+  <div class="course-header-right">
+    <img id="courseImage" alt="course image">
+  </div>
+
+</div>
+
+<!-- LEVELS -->
+<div id="levelsContainer"></div>
+
+<!-- EMPTY STATE -->
+<div id="noCourse" style="display:none;text-align:center;margin-top:60px;color:#64748b">
+  <h2>⚠ Course not found</h2>
+  <p>Please go back and select a valid course.</p>
+  <br>
+  <a href="index.html" style="color:#2563eb;font-weight:600;text-decoration:none">← Back to Courses</a>
+</div>
+
+</section>
+</main>
+</div>
+
+<!-- MAIN JS -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
